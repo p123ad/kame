@@ -3,4 +3,4 @@
 
 
 
-<img src="/doc/images/kame.png" width="45%"></img>
+<img src="/doc/images/kame.jpg" width="45%"></img>
