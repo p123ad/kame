@@ -13,14 +13,23 @@ void MiniKame::init(){
     board_pins[7] = D3; // Servo S7
 
     // Trim values for zero position calibration.
+    // trim[0] = 0;
+    // trim[1] = -8;
+    // trim[2] = 8;
+    // trim[3] = 5;
+    // trim[4] = 2;
+    // trim[5] = -6;
+    // trim[6] = 6;
+    // trim[7] = 5;
+
     trim[0] = 0;
-    trim[1] = -8;
-    trim[2] = 8;
-    trim[3] = 5;
-    trim[4] = 2;
-    trim[5] = -6;
-    trim[6] = 6;
-    trim[7] = 5;
+    trim[1] = 0;
+    trim[2] = 0;
+    trim[3] = 0;
+    trim[4] = 0;
+    trim[5] = 0;
+    trim[6] = 0;
+    trim[7] = 0;
 
     // Set reverse movement
     for (int i=0; i<8; i++) reverse[i] = false;
