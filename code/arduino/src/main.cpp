@@ -58,6 +58,7 @@ void loop() {
             else robot.home();
         }
     }
+    
 }
 
 void parseData(String data){
@@ -111,8 +112,7 @@ void parseData(String data){
             break;
 
         default:
-            //robot.home();
-            robot.zero();
+            robot.home();
             break;
     }
 }
