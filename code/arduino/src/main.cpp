@@ -52,10 +52,13 @@ void loop() {
         else{
             Serial.println("Normal mode");
             if (client.available()) {
+                Serial.println("Client available");
                 while(client.available()) input = client.readStringUntil('+');
                 parseData(input);
             }
-            else robot.home();
+            else{
+                robot.home();
+            } 
         }
     }
     
@@ -71,6 +74,7 @@ void parseData(String data){
             break;
 
         case 2: // Down
+            robot.zero();
             break;
 
         case 3: // Left
