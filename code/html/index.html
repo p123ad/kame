@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body {
+        background-color: blanchedalmond;
+    }
+    div {
+        width: 100%;
+        height: 400px;
+    }
+    div div {
+        background-color: aqua;
+        margin: 2px;
+ 
+        width: 32%; 
+        height: 33%;
+        float: left;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        border-radius: 10px;
+        line-height: 500%;
+        font-size: 26px;
+        
+          
+    }
+
+    div div:hover {
+        animation-name: background-color;
+        animation-duration: 200ms;
+        animation-fill-mode: forwards;
+    }
+    @keyframes background-color {
+        100% {
+            background-color: royalblue;
+        }
+    }
+    .text {
+        font-family: sans-serif;
+        text-align:center
+        
+    }
+    .normalBox {
+        background-color: orange;
+    }
+    .moveBox {
+        background-color: cadetblue;
+    }
+    .stopBox {
+        background-color: red;
+    }
+</style>
+
+<head>
+    <title>Interface for my wonderful Kame Robot</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1 class="text">Interface for Mini Kame</h1>
+    <hr>
+    <div>
+        <div class="normalBox text">Hello</div>
+        <div class="moveBox text">Forward</div>
+        <div class="normalBox text">Moonwalk</div>
+        <div class="moveBox text">Left</div>
+        <div class="stopBox text">Stop</div>
+        <div class="moveBox text">Right</div>
+        <div class="normalBox text">Dance</div>
+        <div class="moveBox text">Backward</div>
+        <div class="normalBox text">Pushup</div>  
+    </div>
+</body>
+
+</html>
