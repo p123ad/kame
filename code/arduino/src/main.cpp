@@ -116,7 +116,7 @@ void parseData(String data){
             break;
 
         case 12: // Moonwalk
-            robot.zero();
+            robot.moonwalkL(3, 1000);
             break;
 
         default:
