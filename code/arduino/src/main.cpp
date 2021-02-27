@@ -68,12 +68,12 @@ void parseData(String data){
 
     switch (data.toInt()){
 
-        case 1: // Up
+        case 1: // Forward
             robot.walk(1,550);
             running = 1;
             break;
 
-        case 2: // Down
+        case 2: // Backward
             robot.zero();
             break;
 
@@ -91,28 +91,32 @@ void parseData(String data){
             running = 0;
             break;
 
-        case 6: // heart
+        case 6: // Pushups
             robot.pushUp(2,2000);
             break;
 
-        case 7: // fire
+        case 7: // fire ??
             robot.upDown(4,250);
             break;
 
-        case 8: // skull
+        case 8: // Jumping (not working)
             robot.jump();
             break;
 
-        case 9: // cross
+        case 9: // Say Hello 
             robot.hello();
             break;
 
-        case 10: // punch
+        case 10: // punch ??
             robot.frontBack(4,200);
             break;
 
-        case 11: // mask
+        case 11: // Dancing Moves
             robot.dance(2,1000);
+            break;
+
+        case 12: // Moonwalk
+            robot.moonwalkL(3, 1000);
             break;
 
         default:
