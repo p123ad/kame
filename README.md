@@ -1,5 +1,8 @@
 # kame
-8DOF quadrupet robot controlled with raspberry pi and ROS
+8DOF quadrupet robot controlled with ESP32 board.
+Connection via Wifi and telnet protocol.
+
+Web-Page is coming.
 
 
 
