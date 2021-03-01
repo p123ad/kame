@@ -3,7 +3,7 @@
 
 
 
-<img src="/doc/images/kame.jpg" width="45%"></img>
+<img src="/doc/images/kame_stand.jpg" width="45%"></img>
 
 
 
