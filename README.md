@@ -5,8 +5,8 @@ Connection via Wifi and telnet protocol.
 Web-Page is coming.
 
 
-
 <img src="/doc/images/kame_stand.jpg" width="45%"></img>
+
 
 
 
@@ -21,3 +21,6 @@ board_pins[5] = D5; // Servo S5
 board_pins[6] = D2; // Servo S6
 board_pins[7] = D3; // Servo S7
 ````
+
+## License
+This project was build upon the great work from [JavierIH](https://github.com/JavierIH/miniKame)
