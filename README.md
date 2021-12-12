@@ -1,10 +1,11 @@
-# kame
-8DOF quadrupet robot controlled with ESP32 board.
+# Kame
+This is a 8DOF quadrupet robot controlled with ESP32 board.
 Connection via Wifi and telnet protocol.
 
-Web-Page is coming.
+This build is based on the Project form [JavierIH](https://github.com/JavierIH/miniKame).
+Some Parts are redesgined to fit a ESP32 Development board inside.
 
-
+Here is a Picture of the finished Robot
 <img src="/doc/images/kame_stand.jpg" width="45%"></img>
 
 
